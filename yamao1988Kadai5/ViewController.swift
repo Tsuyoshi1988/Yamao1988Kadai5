@@ -5,7 +5,7 @@ class ViewController: UIViewController {
     @IBOutlet weak private var text1: UITextField!
     @IBOutlet weak private var text2: UITextField!
     
-    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak private var label: UILabel!
 
     @IBAction func calculate(_ sender: Any) {
         self.calculate()
